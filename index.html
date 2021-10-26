@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./../css/style.css" />
+    <title>Kaltwassersätze</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <link rel="stylesheet" href="./../css/style.css" />
-  <title>Kaltwassersätze</title>
-</head>
-
-<body>
-  <!-- header -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="./../assets/Logo 4.png" alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="m-auto"></div>
-          <ul class="
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./../assets/Logo 4.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="m-auto"></div>
+            <ul
+              class="
                 navbar-nav
                 d-md-flex
                 align-items-md-center
                 justify-content-md-center
-              ">
-            <li class="nav-item px-md-3">
-              <a class="nav-link" aria-current="page" href="#">Über Uns</a>
-            </li>
-            <li class="nav-item px-md-3 dropdown">
-              <a class="
+              "
+            >
+              <li class="nav-item px-md-3">
+                <a class="nav-link" aria-current="page" href="#">Über Uns</a>
+              </li>
+              <li class="nav-item px-md-3 dropdown">
+                <a
+                  class="
                     nav-link
                     active
                     border border-md-2
@@ -51,624 +77,640 @@
                     px-md-4
                     py-0
                     my-md-1
-                  " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <span class="clr_blue mx-md-2">Produkte </span><span><i class="fas fa-chevron-down clr_blue"></i></span>
-              </a>
-              <ul class="dropdown-menu px-md-3" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                <li><a class="dropdown-item" href="#">Item 2</a></li>
-              </ul>
-            </li>
-            <li class="nav-item px-md-3 dropdown">
-              <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <span class="mx-md-2">Dienstleistungen </span><span><i class="fas fa-chevron-down"></i></span>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                <li><a class="dropdown-item" href="#">Item 2</a></li>
-              </ul>
-            </li>
-            <li class="nav-item px-md-3 dropdown">
-              <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <span class="mx-md-2">Peripherietechnik </span><span><i class="fas fa-chevron-down"></i></span>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                <li><a class="dropdown-item" href="#">Item 2</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Item 3</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item px-md-3">
-              <a class="nav-link" href="#">Klimatechnik</a>
-            </li>
-            <li class="nav-item px-md-3">
-              <a class="nav-link" href="#">Kontakt</a>
-            </li>
-            <li class="nav-item px-md-3">
-              <a class="nav-link" href="#">Presse</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container">
-      <div class="row align-items-md-center">
-        <div class="col-md-6 col-sm-12">
-          <div class="order-sm-1">
-            <h1 class="title clr_blue">
-              Luftkondensierte
-              <br />
-              K&auml;ltemaschinen
-              <br />
-              &amp;&nbsp;Kaltwassers&auml;tze
-            </h1>
-          </div>
-
-          <div class="order-sm-3">
-            <p class="title_text">
-              Aufgrund der kompakten Bauart werden platzsparende
-              luftkondensierte Kompressionsk&auml;ltemaschinen (umgangsspr.
-              &laquo;Kaltwassers&auml;tze&raquo;) vielseitig zur
-              Prozessk&uuml;hlung und Geb&auml;udeklimatisierung eingesetzt.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-sm-12">
-          <div class="order-sm-2">
-            <img class="img-fluid" src="./../assets/Air Colled Chillers Small - MRS Transparent3_3 2.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- section 2 -->
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 col-sm-12">
-        <img src="./../assets/Multistage MSW-MSA - Refrigeration Systems 1.png" alt="" class="img-fluid pe-md-5" />
-      </div>
-      <div class="col-md-6 col-sm-12 d-flex justify-content-center">
-        <div class="ps-md-5">
-          <h3 class="sub_title clr_blue">ENERGIEEFFIZIENZ IM&nbsp;FOKUS</h3>
-          <div class="sub_title_text">
-            <p>
-              Bei der Anschaffung sollte deshalb besonders auf
-              <b> energieeffiziente Systeme</b> geachtet werden, denn die
-              Betriebskosten der Anlage &uuml;berschreiten
-              erfahrungsgem&auml;&szlig; &uuml;ber die Lebensdauer hinweg die
-              einmaligen Anschaffungskosten um&nbsp;ein vielfaches.
-            </p>
-            <p>
-              Insofern sind die Themen Kompressortechnik und Einsatz von
-              Freik&uuml;hlung von besonderer Bedeutung, sowie Steuer- und
-              Regelungstechnik besonders wichtig.
-            </p>
+                  "
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="clr_blue mx-md-2">Produkte </span
+                  ><span><i class="fas fa-chevron-down clr_blue"></i></span>
+                </a>
+                <ul
+                  class="dropdown-menu px-md-3"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-md-3 dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="mx-md-2">Dienstleistungen </span
+                  ><span><i class="fas fa-chevron-down"></i></span>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-md-3 dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="mx-md-2">Peripherietechnik </span
+                  ><span><i class="fas fa-chevron-down"></i></span>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Item 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item px-md-3">
+                <a class="nav-link" href="#">Klimatechnik</a>
+              </li>
+              <li class="nav-item px-md-3">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+              <li class="nav-item px-md-3">
+                <a class="nav-link" href="#">Presse</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </nav>
 
-  <!-- section 3  done -->
-  <div class="container-fluid">
-    <div class="row align-items-center" style="background: linear-gradient(180deg, #163da2 0%, #003584 100%)">
-      <div class="col-md-5 col-sm-12 p-0">
-        <span></span>
-        <img src="./../assets/asv4sabu 3.png" alt="" class="img-fluid" />
-      </div>
-      <div class="col-md-7 col-sm-12 d-flex justify-content-center">
-        <div class="clr_white sub_title_text_2">
-          <h3 class="sub_title">MODERNSTE STANDARDS</h3>
-          <p class="">
-            Aktuelle Richtlinien und Verordnungen bez&uuml;glich des
-            <b> K&auml;ltemittel Phase-Downs</b> m&uuml;ssen
-            ber&uuml;cksichtigt werden. Der langfristige Einsatz des
-            K&auml;ltemittels muss sowohl nach &ouml;konomischen als auch
-            strategischen Gesichtspunkten entschieden werden.
-          </p>
-          <p class="">
-            Alle unsere K&auml;ltemaschinen entsprechen dem modernsten Stand
-            der Technik und werden in&nbsp;den unterschiedlichsten Branchen
-            eingesetzt. Unser Angebot umfasst ein
-            <b>breites Sortiment an&nbsp;nat&uuml;rlichen und frigenen
-              K&auml;ltemitteln</b>, die den aktuellsten Normen und Verordnungen entsprechen.
-          </p>
+      <div class="container">
+        <div class="row align-items-md-center">
+          <div class="col-md-6 col-sm-12">
+            <div class="order-sm-1">
+              <h1 class="title clr_blue">
+                Luftkondensierte
+                <br />
+                K&auml;ltemaschinen
+                <br />
+                &amp;&nbsp;Kaltwassers&auml;tze
+              </h1>
+            </div>
+
+            <div class="order-sm-3">
+              <p class="title_text">
+                Aufgrund der kompakten Bauart werden platzsparende
+                luftkondensierte Kompressionsk&auml;ltemaschinen (umgangsspr.
+                &laquo;Kaltwassers&auml;tze&raquo;) vielseitig zur
+                Prozessk&uuml;hlung und Geb&auml;udeklimatisierung eingesetzt.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="order-sm-2">
+              <img
+                class="img-fluid"
+                src="./../assets/Air Colled Chillers Small - MRS Transparent3_3 2.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </header>
 
-  <!-- section 4 done-->
-  <div class="container-fluid">
+    <!-- section 2 -->
     <div class="container">
       <div class="row align-items-center">
-        <div class="
+        <div class="col-md-6 col-sm-12">
+          <img
+            src="./../assets/Multistage MSW-MSA - Refrigeration Systems 1.png"
+            alt=""
+            class="img-fluid pe-md-5"
+          />
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div class="ps-md-5">
+            <h3 class="sub_title clr_blue">ENERGIEEFFIZIENZ IM&nbsp;FOKUS</h3>
+            <div class="sub_title_text">
+              <p>
+                Bei der Anschaffung sollte deshalb besonders auf
+                <b> energieeffiziente Systeme</b> geachtet werden, denn die
+                Betriebskosten der Anlage &uuml;berschreiten
+                erfahrungsgem&auml;&szlig; &uuml;ber die Lebensdauer hinweg die
+                einmaligen Anschaffungskosten um&nbsp;ein vielfaches.
+              </p>
+              <p>
+                Insofern sind die Themen Kompressortechnik und Einsatz von
+                Freik&uuml;hlung von besonderer Bedeutung, sowie Steuer- und
+                Regelungstechnik besonders wichtig.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 3 -->
+    <div class="container-fluid">
+      <div
+        class="row align-items-center"
+        style="background: linear-gradient(180deg, #163da2 0%, #003584 100%)"
+      >
+        <div class="col-md-5 col-sm-12 p-0">
+          <span></span>
+          <img src="./../assets/asv4sabu 3.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-7 col-sm-12 d-flex justify-content-center">
+          <div class="clr_white sub_title_text_2">
+            <h3 class="sub_title">MODERNSTE STANDARDS</h3>
+            <p class="">
+              Aktuelle Richtlinien und Verordnungen bez&uuml;glich des
+              <b> K&auml;ltemittel Phase-Downs</b> m&uuml;ssen
+              ber&uuml;cksichtigt werden. Der langfristige Einsatz des
+              K&auml;ltemittels muss sowohl nach &ouml;konomischen als auch
+              strategischen Gesichtspunkten entschieden werden.
+            </p>
+            <p class="">
+              Alle unsere K&auml;ltemaschinen entsprechen dem modernsten Stand
+              der Technik und werden in&nbsp;den unterschiedlichsten Branchen
+              eingesetzt. Unser Angebot umfasst ein
+              <b
+                >breites Sortiment an&nbsp;nat&uuml;rlichen und frigenen
+                K&auml;ltemitteln</b
+              >, die den aktuellsten Normen und Verordnungen entsprechen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 4 -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="
               col-md-6 col-sm-12
               d-flex
               flex-column
               justify-content-center
               p-0
-            ">
-          <div>
-            <h2 class="mb-5 sub_title text-uppercase clr_blue">
-              Unsere Spezialit&auml;t besteht aus unseren
-              Kaltwassers&auml;tzen mit integrierter Freik&uuml;hleinheit.
-            </h2>
-            <p>
-              Doppelkanal Mikrochannel W&auml;rmetauscher k&uuml;hlen das
-              Prozesswasser energiesparend &uuml;ber ambiente Umgebungsluft.
-            </p>
-            <p>
-              <b>Nur bei hei&szlig;en Au&szlig;entemperaturen erfolgt die
-                Umschaltung auf Kompressionsk&auml;lteerzeugung. Diese
-                Maximierung der Freik&uuml;hlzeit erzielt
-                gr&ouml;&szlig;tm&ouml;gliche Kosteneinsparungen</b>
-              auch bei kleinen Nennleistungen.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 p-0">
-          <div class="hot_cold">
-            <img class="img-fluid hot_cold" src="./../assets/IconHotToCold 1.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- section 5 icons -->
-  <div class="container-fluid bg-light py-5">
-    <div class="container ">
-      <h2 class="text-center pb-4 sub_title">IHRE VORTEILE</h2>
-
-
-      <div class="row g-3">
-
-        <div class="card  col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/cube.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Geringe Stellfläche</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/snow.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Mit und ohne integrierter Freikühlung</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/sun.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Für Außentemperaturen bis +55°C</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/kemping.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Für Außen- und Innenaufstellung erhältlich</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/car.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Betriebsbereit bei Anlieferung</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/lamp.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Automatische Freikühlschaltung für verringerten Energieverbrauch</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/diamond.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Robustes Gehäuse für Außenaufstellung</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/mute.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Geringe Schallemissionen</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/weater.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Wetterfest und Langlebig</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12">
-          <div class="row ">
-            <div class=" col-4 d-flex justify-content-center align-items-center">
-              <img src="./assets/icons/shield.png" alt="icon">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <p class="card-text ">Erhöhte Betriebssicherheit</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-  </div>
-
-
-  </div>
-  </div>
-
-  <!-- section 6 list-->
-  <div class="container-fluid bg-light">
-    <div class="container p-0">
-      <div class="card_list">
-        <h2 class="text-center sub_title p-4">HAUPTMERKMALE</h2>
-        <div class="row d-flex justify-content-around">
-          <div class="col-md-5 p-4">
-            <div class="d-flex padBot">
-              <p class="me-3">①</p>
+            "
+          >
+            <div>
+              <h2 class="mb-5 sub_title text-uppercase clr_blue">
+                Unsere Spezialit&auml;t besteht aus unseren
+                Kaltwassers&auml;tzen mit integrierter Freik&uuml;hleinheit.
+              </h2>
               <p>
-                25&nbsp;verschiedene Modelle von
-                <b> 6&nbsp;kW bis 600&nbsp;kW K&uuml; </b>hlleistung
+                Doppelkanal Mikrochannel W&auml;rmetauscher k&uuml;hlen das
+                Prozesswasser energiesparend &uuml;ber ambiente Umgebungsluft.
+              </p>
+              <p>
+                <b
+                  >Nur bei hei&szlig;en Au&szlig;entemperaturen erfolgt die
+                  Umschaltung auf Kompressionsk&auml;lteerzeugung. Diese
+                  Maximierung der Freik&uuml;hlzeit erzielt
+                  gr&ouml;&szlig;tm&ouml;gliche Kosteneinsparungen</b
+                >
+                auch bei kleinen Nennleistungen.
               </p>
             </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">②</p>
-              <p>Volumenströme von <b> 1,5 m³/h bis 140 m³/h</b></p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">③</p>
-              <p>
-                Auswahl aus <b>50 verschiedenen Prozesspumpen</b> im
-                Hochfluss- und Hochdruckbereich
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">④</p>
-              <p>
-                Kompakteinheiten mit
-                <b>integrierten Pumpen, Drucktanks, Filtern, Steuerungen</b>
-                (optional mit Reservepumpe)
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑤</p>
-              <p>
-                <b>Mikrochannel Verfl&uuml;ssiger</b> f&uuml;r h&ouml;chste
-                Energieeffizienz
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑥</p>
-              <p>
-                Mit optionalen <b>Kompressor Schallschutzummantelungen</b>
-              </p>
-            </div>
-
-            <div class="d-flex">
-              <p class="me-3">⑦</p>
-              <p><b>Schallmindernde Ventilatortechnik</b> erh&auml;ltlich</p>
-            </div>
           </div>
-
-          <div class="col-md-5 p-4">
-            <div class="d-flex padBot">
-              <p class="me-3">⑧</p>
-              <p>
-                <b>Scroll, Multiscroll</b> und
-                <b>Schraubenkompressoren</b> (optional mit Frequenzumrichter)
-                erh&auml;ltlich
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑨</p>
-              <p>
-                <b>Automatische Leistungssteuerung</b> f&uuml;r Prozesse mit
-                variabler K&uuml;hllast
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑩</p>
-              <p>
-                <b>Kleine K&auml;ltemittelvolumen</b> dank extrakompakter
-                Bauweise
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑪</p>
-              <p>
-                Auswahl aus
-                <b>verschiedenen Low-GWP K&auml;ltemitteln, u.a. R513a,
-                  R1234ze und R290 (Propan)</b>
-              </p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑫</p>
-              <p>Mit <b>automatischen Glykol Nachf&uuml;llsystemem</b></p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑬</p>
-              <p>Mit <b>Remote HMI</b></p>
-            </div>
-
-            <div class="d-flex padBot">
-              <p class="me-3">⑭</p>
-              <p>
-                <b>Erhöhte Betriebssicherheit mit bis zu 4 Kühlkreisläufen</b>
-                pro Maschine
-              </p>
+          <div class="col-md-6 col-sm-12 p-0">
+            <div class="hot_cold">
+              <img
+                class="img-fluid hot_cold"
+                src="./../assets/IconHotToCold 1.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- section 7 slider-->
-  <div class="container-fluid bg-light py-5">
-    <div class="container">
-      <div class="row slider_center">
-        <div class="col-md-6 col-sm-12">
-          <h1 class="sub_title text-center">BILDER</h1>
-          <div class="slider">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img class="img-fluid" src="./../assets/asv4sabu 1.png" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img class="img-fluid" src="./../assets/asv4sabu 1.png" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img class="img-fluid" src="./../assets/asv4sabu 1.png" alt="" />
+    <!-- section 5 icons -->
+    <div class="container-fluid bg-light py-5">
+      <h2 class="text-center sub_title">IHRE VORTEILE</h2>
+      <div class="container">
+        <div class="row d-flex flex-wrap">
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/cube.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Geringe Stellfläche</p>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev prev"></div>
-              <div class="swiper-button-next next"></div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/snow.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Mit und ohne integrierter Freikühlung</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/sun.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Für Außentemperaturen bis +55°C</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/kemping.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">
+                    Für Außen- und Innenaufstellung erhältlich
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/car.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Betriebsbereit bei Anlieferung</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/lamp.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">
+                    Automatische Freikühlschaltung für verringerten
+                    Energieverbrauch
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/diamond.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Robustes Gehäuse für Außenaufstellung</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/mute.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Geringe Schallemissionen</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/weater.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Wetterfest und Langlebig</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-3 col-sm-12">
+            <div class="row">
+              <div
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/icons/shield.png" alt="icon" />
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <p class="card-text">Erhöhte Betriebssicherheit</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- section 8 -->
-  <div class="container-fluid bg-light">
-    <div class="container py-5">
-      <h2 class="text-center sub_title">
-        BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:
-      </h2>
-      <div class="">
-        <div class="row pt-5 d-flex flex-wrap">
-          <div class="col-md-4 col-sm-12 pb-2">
-            <div class="item">
+    <!-- section 6 list-->
+    <div class="container-fluid bg-light py-5">
+      <div class="container p-0">
+        <div class="card_list">
+          <h2 class="text-center sub_title py-4">HAUPTMERKMALE</h2>
+          <div class="card_list_items d-md-flex">
+            <div class="col-md-6 col-sm-12">
+              <ul>
+                <li>
+                  25&nbsp;verschiedene Modelle von 6&nbsp;kW bis 600&nbsp;kW
+                  K&uuml; hlleistung
+                </li>
+                <li>Volumenströme von 1,5 m³/h bis 140 m³/h</li>
+                <li>
+                  Auswahl aus 50 verschiedenen Prozesspumpen im Hochfluss- und
+                  Hochdruckbereich
+                </li>
+                <li>
+                  Kompakteinheiten mit integrierten Pumpen, Drucktanks, Filtern,
+                  Steuerungen (optional mit Reservepumpe)
+                </li>
+                <li>
+                  Mikrochannel Verfl&uuml;ssiger f&uuml;r h&ouml;chste
+                  Energieeffizienz
+                </li>
+                <li>Mit optionalen Kompressor Schallschutzummantelungen</li>
+                <li>Schallmindernde Ventilatortechnik erh&auml;ltlich</li>
+              </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <ul>
+                <li>
+                  Scroll, Multiscroll und Schraubenkompressoren (optional mit
+                  Frequenzumrichter) erh&auml;ltlich
+                </li>
+                <li>
+                  Automatische Leistungssteuerung f&uuml;r Prozesse mit
+                  variabler K&uuml;hllast
+                </li>
+                <li>
+                  Kleine K&auml;ltemittelvolumen dank extrakompakter Bauweise
+                </li>
+                <li>
+                  Auswahl aus >verschiedenen Low-GWP K&auml;ltemitteln, u.a.
+                  R513a, R1234ze und R290 (Propan)
+                </li>
+                <li>Mit automatischen Glykol Nachf&uuml;llsystemem</li>
+                <li>
+                  Erhöhte Betriebssicherheit mit bis zu 4 Kühlkreisläufen pro
+                  Maschine
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 7 slider-->
+    <div class="container-fluid bg-light py-2">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8 col-sm-12">
+            <h1 class="sub_title text-center">BILDER</h1>
+            <div class="slider">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide d-flex justify-content-center">
+                    <img
+                      class="img-fluid"
+                      src="./../assets/asv4sabu 1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide d-flex justify-content-center">
+                    <img
+                      class="img-fluid"
+                      src="./../assets/asv4sabu 1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide d-flex justify-content-center">
+                    <img
+                      class="img-fluid"
+                      src="./../assets/asv4sabu 1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 8 buttons -->
+    <div class="container-fluid bg-light py-5">
+      <div class="container">
+        <h2 class="text-center sub_title">
+          BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:
+        </h2>
+          <div class="row d-flex flex-wrap">
+            <div class="col-md-4 col-sm-12 p-0 pb-2">
               <button class="btn btn-primary">GLYKOLWANNEN</button>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-12 pb-2">
-            <div class="item">
+            <div class="col-md-4 col-sm-12 p-0 pb-2">
               <button class="btn btn-primary">WASSERAUFBEREITUNG</button>
             </div>
-          </div>
-
-          <div class="col-md-4 col-sm-12 pb-2">
-            <div class="item">
+            <div class="col-md-4 col-sm-12 p-0 pb-2">
               <button class="btn btn-primary">ROHRLEITUNGSBAU</button>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-12 pb-2">
-            <div class="item">
+            <div class="col-md-4 col-sm-12 p-0 pb-2">
               <button class="btn btn-primary">Wärmemengenmessungen</button>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="item">
+            <div class="col-md-4 col-sm-12 p-0">
               <button class="btn btn-primary">ANLAGELEASING</button>
             </div>
           </div>
-        </div>
       </div>
     </div>
-  </div>
 
-  <!-- section 9 -->
-  <div class="container-fluid brd_line">
-    <div class="container">
-      <div class="row d-flex justify-content-around align-items-center py-5">
-        <div class="col-md-4 col-sm-12">
-          <div class="sub_title text-uppercase clr_blue">
-            Jetzt Termin vereinbaren!
+    <!-- section 9 -->
+    <div class="container-fluid brd_line py-5">
+      <div class="container">
+        <div class="row d-flex justify-content-around align-items-center">
+          <div class="col-md-4 col-sm-12 p-0">
+            <div class="sub_title text-uppercase clr_blue">
+              Jetzt Termin vereinbaren!
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 p-0">
+            <p>
+              Gerne stehen wir Ihnen f&uuml;r eine individuelle Beratung
+              telefonisch und vor Ort zur Verf&uuml;gung und freuen uns
+              &uuml;ber Ihre Kontaktaufnahme. Sprechen Sie uns&nbsp;an!
+            </p>
+            <p>
+              Fragen Sie nach einem R&uuml;ckruf oder kontaktieren Sie uns
+              unter:
+              <a href="mailto:info@elsasser-technik.de">info@elsasser-technik.de</a>
+            </p>
+            <button class="btn btn-primary btn_kontact">Kontakt</button>
+          </div>
+          <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <img
+              class="img-fluid"
+              src="./../assets/Logo3black 3.png"
+              alt="logo_black"
+            />
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
-          <p>
-            Gerne stehen wir Ihnen f&uuml;r eine individuelle Beratung
-            telefonisch und vor Ort zur Verf&uuml;gung und freuen uns
-            &uuml;ber Ihre Kontaktaufnahme. Sprechen Sie uns&nbsp;an!
-          </p>
-          <p>
-            Fragen Sie nach einem R&uuml;ckruf oder kontaktieren Sie uns
-            unter:
-            <a href="#">info@elsasser-technik.de</a>
-          </p>
-          <button class="btn btn-primary btn_kontact">Kontakt</button>
-        </div>
-        <div class="col-md-4 col-sm-12 d-flex justify-content-center">
-          <img class="img-fluid" src="./../assets/Logo3black 3.png" alt="logo_black" />
-        </div>
       </div>
     </div>
-  </div>
 
-  <!-- section 10 -->
-  <footer class="container">
-    <div class="row py-5">
-      <div class="
+    <!-- section 10 -->
+    <footer class="container">
+      <div class="row py-5">
+        <div
+          class="
             col-md-3 col-sm-12
             d-flex
             flex-column
             justify-content-end
             clr_silver
-          ">
-        <h5 class="pb-4 pt-4">Elsässer Kältetechnik</h5>
-        <p>Königsallee 14</p>
-        <p>40212 Düsseldorf</p>
-      </div>
+          "
+        >
+          <h5 class="pb-4 pt-4">Elsässer Kältetechnik</h5>
+          <p>Königsallee 14</p>
+          <p>40212 Düsseldorf</p>
+        </div>
 
-      <div class="
+        <div
+          class="
             col-md-3 col-sm-12
             d-flex
             flex-column
             justify-content-end
             clr_silver
-          ">
-        <h5 class="pb-4 pt-4">Kontakt</h5>
-        <p>Telefon: +49 (0) 211 9232 3052</p>
-        <p>E-Mail: <a href="#">info@elsasser-technik.de</a></p>
-      </div>
+          "
+        >
+          <h5 class="pb-4 pt-4">Kontakt</h5>
+          <p>Telefon: +49 (0) 211 9232 3052</p>
+          <p>E-Mail: <a href="mailto:info@elsasser-technik.de" >info@elsasser-technik.de</a></p>
+        </div>
 
-      <div class="
+        <div
+          class="
             col-md-3 col-sm-12
             d-flex
             flex-column
             justify-content-end
             clr_silver
-          ">
-        <h5 class="pb-4 pt-4">Shortlinks</h5>
-        <p class="text-decoration-underline"><u>Kontakt </u></p>
-        <p class="text-decoration-underline"><u> Rückruf vereinbaren </u></p>
-      </div>
+          "
+        >
+          <h5 class="pb-4 pt-4">Shortlinks</h5>
+          <p class="text-decoration-underline"><u>Kontakt </u></p>
+          <p class="text-decoration-underline"><u> Rückruf vereinbaren </u></p>
+        </div>
 
-      <div class="
+        <div
+          class="
             col-md-3 col-sm-12
             d-flex
             flex-column
             justify-content-end
             clr_silver
-          ">
-        <p class="text-decoration-underline"><u> </u> Impressum</p>
-        <p class="text-decoration-underline"><u> </u> Datenschutz</p>
+          "
+        >
+          <p class="text-decoration-underline"><u> </u> Impressum</p>
+          <p class="text-decoration-underline"><u> </u> Datenschutz</p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <div>
+    <div></div>
 
-  </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
 
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper(".swiper", {
-      // Optional parameters
-      direction: "horizontal",
-      loop: true,
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
 
-      // If we need pagination
-      pagination: {
-        el: ".swiper-pagination",
-      },
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
 
-      // Navigation arrows
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: ".swiper-scrollbar",
-      },
-    });
-  </script>
-</body>
-
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+  </body>
 </html>

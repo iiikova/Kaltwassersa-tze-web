@@ -139,6 +139,7 @@ p {
 
 .hot_cold {
   margin-right: -60px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 575px) {
@@ -156,20 +157,32 @@ p {
   height: 136px;
 }
 
+@media screen and (max-width: 575px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
 .card_list {
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
 }
 
-.padBot {
+.card_list .card_list_items ul {
+  padding: 0 40px;
+}
+
+.card_list .card_list_items ul li {
+  display: flex;
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 575px) {
-  .padBot {
-    padding-bottom: 30px;
-  }
+.card_list .card_list_items ul li:before {
+  content: "-";
+  display: flex;
+  align-items: flex-start;
+  padding-right: 20px;
 }
 
 .btn {
@@ -195,77 +208,15 @@ p {
   }
 }
 
-.slider_center {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.swiper {
-  width: auto;
-  height: 80vh;
-}
-
-.prev,
-.next {
-  padding-top: 400px;
-  width: 100px;
-  color: #1652ac;
-}
-
 @media screen and (max-width: 575px) {
-  .prev,
-  .next {
+  .swiper-button-prev,
+  .swiper-button-next {
     display: none;
   }
 }
 
-.next {
-  margin-right: 400px;
-}
-
-.swiper-pagination {
-  padding-top: -100px;
-  margin-top: -100px;
-}
-
-.swiper-button-prev:after,
-.swiper-rtl .swiper-button-next:after {
-  content: "prev";
-  padding: 20px 60px;
-  display: block;
-  margin-left: 30px;
-  background: #ffffff;
-  box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-  border-radius: 8px;
-}
-
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev::after {
-  content: "next";
-  padding: 20px 60px;
-  margin-left: 100px;
-  background: #ffffff;
-  box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-  border-radius: 8px;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: 123px;
-  left: 20px;
-  width: 100%;
-}
-
-@media screen and (max-width: 575px) {
-  .swiper-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-bullets.swiper-pagination-horizontal,
-  .swiper-pagination-custom,
-  .swiper-pagination-fraction {
-    left: 0;
-    bottom: 0;
-  }
+.swiper-pagination-bullet {
+  margin-top: 40px;
+  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
