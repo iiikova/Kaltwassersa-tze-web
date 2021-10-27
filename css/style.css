@@ -60,7 +60,8 @@
   }
 }
 
-.title_text::before {
+.title_text::before,
+.title_text::after {
   content: "";
   display: block;
   width: 227px;
@@ -70,8 +71,10 @@
 }
 
 @media screen and (max-width: 575px) {
-  .title_text::before {
-    margin-left: 80px;
+  .title_text::before,
+  .title_text::after {
+    margin-top: -20px;
+    width: 100%;
   }
 }
 
@@ -86,9 +89,12 @@
 
 @media screen and (max-width: 575px) {
   .title_text::after {
-    content: "";
-    display: none;
+    width: 100%;
   }
+}
+
+.ml5 {
+  margin-left: 5rem;
 }
 
 .sub_title {
@@ -103,27 +109,28 @@
 @media screen and (max-width: 575px) {
   .sub_title {
     text-align: center;
+    margin: 0;
   }
 }
 
 .sub_title_text {
-  margin-right: 11rem;
+  margin: 5rem;
 }
 
 @media screen and (max-width: 575px) {
   .sub_title_text {
-    margin-right: 0;
+    margin: 0;
   }
 }
 
 .sub_title_text_2 {
-  margin: 11rem;
+  margin: 5rem;
 }
 
 @media screen and (max-width: 575px) {
   .sub_title_text_2 {
     margin: 0;
-    padding: 50px 0 50px 0;
+    padding: 50px  0;
   }
 }
 
