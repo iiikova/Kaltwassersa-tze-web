@@ -23,14 +23,13 @@
 }
 
 // COLORS / //
-
 .title {
   line-height: 1.5;
   font-family: BBC Reith Sans;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: -0.4000000059604645px;
+  letter-spacing: -0.40px;
   text-align: left;
   @media screen and (max-width: 575px) {
     font-size: 34px;
@@ -44,7 +43,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
-  letter-spacing: -0.4000000059604645px;
+  letter-spacing: -0.40px;
   text-align: left;
   width: 75%;
   color: #020303;
@@ -110,17 +109,10 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: -0.4000000059604645px;
+  letter-spacing: -0.40px;
   text-align: left;
 }
 
-.hot_cold {
-  margin-right: -60px;
-  overflow: hidden;
-  @media screen and (max-width: 575px) {
-    margin-right: 0;
-  }
-}
 .card {
   display: flex;
   justify-content: center;
@@ -128,9 +120,13 @@ p {
   background: #ffffff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
   height: 136px;
-  // width: 100%;
+  width: 430px;
+  margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    width: 350px;
+  }
   @media screen and (max-width: 575px) {
-    margin-bottom: 10px;
+    width: 100%;
   }
 }
 .card_list {
@@ -179,6 +175,9 @@ p {
 .swiper-button-prev,
 .swiper-button-next {
   @media screen and (max-width: 575px) {
+    display: none;
+  }
+  @media screen and (max-width: 1024px) {
     display: none;
   }
 }
